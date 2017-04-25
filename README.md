@@ -1,2 +1,2 @@
 # RadioAndPhotos
-Chrome Streema extension for showing fullscreen photos from Unsplah while listening to the radio
+Google Chrome extension for Streema website for showing fullscreen photos from Unsplah while listening to the radio
