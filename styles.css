@@ -211,16 +211,16 @@ body.active .control:hover {
 .control,
 .control .left,
 .control .right,
-.control:before {
+.control::before {
 	display: inline-block;
 	vertical-align: middle;
 }
 .control .left,
 .control .right,
-.control:before {
+.control::before {
 	transition: .2s ease-in-out;
 }
-.control:before {
+.control::before {
 	content: '';
 	height: 112px;
 }

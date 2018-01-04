@@ -5,8 +5,19 @@
 	"description": "Some background photos while listening to the radio",
 	"version": "0.1.22",
 
-	"content_scripts": [
-	{
+	"permissions": [
+		"activeTab"
+	],
+
+	"browser_action": {
+		"default_title": "Radio!"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"content_scripts": [{
 		"matches": ["http://streema.com/radios/play/*"],
 		"css": ["styles.css"],
 		"js": ["script.js"]
