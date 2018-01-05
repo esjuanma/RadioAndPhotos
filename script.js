@@ -186,9 +186,10 @@
 
 			xhttp.onreadystatechange = () => {
 
+				/*
 				console.log('onreadystatechange');
 				console.log('xhttp.readyState', xhttp.readyState);
-				console.log('xhttp.status', xhttp.status);
+				console.log('xhttp.status', xhttp.status);*/
 
 				if(xhttp.status == 200) {
 

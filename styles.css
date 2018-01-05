@@ -256,3 +256,7 @@ body.active .control:hover {
 .control:hover .right {
 	border-left-color: white;
 }
+
+.navbar-main {
+	display: none;
+}

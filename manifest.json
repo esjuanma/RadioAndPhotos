@@ -10,7 +10,7 @@
 	],
 
 	"browser_action": {
-		"default_title": "Radio!"
+		"default_title": "Action"
 	},
 
 	"background": {
